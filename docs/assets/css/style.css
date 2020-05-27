@@ -1,0 +1,78 @@
+.label {
+    background-color: #d1dade;
+    color: #5e5e5e;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 2px 4px;
+    text-shadow: none;
+}
+.label-little{
+    font-size: 12px;
+}
+.label-default {
+    background-color: #999999;
+    color: #FFFFFF;
+}
+.label-primary {
+    background-color: #1ab394;
+    color: #FFFFFF;
+}
+.label-success {
+  background-color: #1c84c6;
+  color: #FFFFFF;
+}
+.label-warning {
+  background-color: #f8ac59;
+  color: #FFFFFF;
+}
+.label-origin {
+  background-color: #ff6a00;
+  color: #FFFFFF;
+}
+.label-warning-light {
+  background-color: #f8ac59;
+  color: #ffffff;
+}
+.label-danger {
+  background-color: #ed5565;
+  color: #FFFFFF;
+}
+.label-info {
+  background-color: #23c6c8;
+  color: #FFFFFF;
+}
+.label-inverse {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+.label-white {
+  background-color: #5E5E5E;
+  color: #FFFFFF;
+}
+.label-black {
+  background-color: #2A2E36;
+  color: #8B91A0;
+}
+.text-grey {
+  color: #5E5E5E;
+}
+.text-red,
+a.text-red{
+    color: #f4645f;
+    outline: none;
+}
+/* a.text-red:hover, a.text-red:focus, a.text-red:active {
+    color: #824027; 
+    font-weight: bold;
+} */
+a.text-white:hover {
+    font-weight: bold;
+    color: #824027; 
+}
+.label-primary-hover:hover {
+    font-weight: bold;
+    background-color: #824027; 
+}
+.cv{
+    padding-top: 5px;
+}
