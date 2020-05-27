@@ -6,18 +6,27 @@
 	<!-- Meta -->
 	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Youxian Tao,Homepage,RUC,DBIIR,Database,Big data analysis,Adaptive column storage layout optimization,Blockchain,李国良,中国人民大学,数据库与智能信息检索实验室,数据库,大数据分析,自适应列存储布局优化,区块链">
+    <meta name="keywords" content="Youxian Tao,Homepage,RUC,DBIIR,Database,Big data analysis,Adaptive column storage layout optimization,Blockchain,李国良,中国人民大学,数据库与智能信息检索实验室,数据库,大数据分析,自适应列存储布局优化,区块链">
+	<meta name="author" content="Youxian Tao">
 	<link rel="shortcut icon" href="ruc.ico"> 
 	
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-	
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="assets/plugins/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap.min.js"></script>  
+	<script type="text/javascript" src="assets/plugins/jquery.scrollTo.min.js"></script>  
+	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+
 	<!-- FontAwesome JS-->
 	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
-	
+	<!-- custom js -->
+	<script type="text/javascript" src="assets/js/main.js"></script> 
+
 	<!-- Theme CSS -->  
 	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/style.css">
@@ -25,11 +34,28 @@
 </head>
 <body>
 	<!-- <div class="adcenter"><script src="http://www.cssmoban.com/include/new/ggad2_728x90.js"></script></div>DEMO ONLY  -->
-	<div class="demo-banner px-2 py-3 text-white text-center font-weight-bold bg-primary">Want a professional Bootstrap 4 vcard & portfolio template </a>
+	<!-- <div class="demo-banner px-2 py-3 text-white text-center font-weight-bold bg-primary">Want a professional CV template?</a>
+	</div> -->
+	<div class="page-nav-space-holder hidden-xs">
+		<div id="page-nav-wrapper" class="page-nav-wrapper text-center fixed">
+			<div class="container">
+				<ul id="page-nav" class="nav page-nav list-inline">
+					<li class=""><a class="scrollto" href="#Author-section">Youxian Tao</a></li>
+					<li class=""><a class="scrollto" href="#Education-section">Education</a></li>
+					<li class=""><a class="scrollto" href="#Research-section">Research</a></li>
+					<li class=""><a class="scrollto" href="#Projects-section">Projects</a></li>
+					<li class=""><a class="scrollto" href="#Internship-section">Internship</a></li>
+					<li class=""><a class="scrollto" href="#Publications-section">Publications</a></li>
+					<li class=""><a class="scrollto" href="#Contests-section">Contests</a></li>
+					<!-- <li class=""><a class="scrollto" onclick="scrollToPos('#Skills-section');" href="#">Skills</a></li> -->
+					<li><a target="_blank" href="http://iir.ruc.edu.cn">DBIIR Lab.</a></li>
+					<li><a href="./index_zh.html">Chinese (中文版)</a></li>
+				</ul><!--//page-nav-->
+			</div>
+		</div><!--//page-nav-wrapper-->
 	</div>
-	
 	<div class="main-wrapper">
-		<div class="container px-3 px-lg-5">
+		<div class="container px-3 px-lg-5" id="Author-section">
 			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 				
 				<div class="resume-header">
@@ -67,7 +93,7 @@
 				<div class="resume-body">
 					<div class="row">
 						<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-							<section class="project-section py-3">
+							<section class="research-section py-3" id="Research-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Research</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
@@ -115,7 +141,7 @@
 								</div><!--//item-->
 							</section><!--//research-section-->	
 
-							<section class="project-section py-3">
+							<section class="project-section py-3" id="Projects-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
@@ -163,7 +189,7 @@
 								</div><!--//item-->
 							</section><!--//project-section-->	
 
-							<section class="work-section py-3">
+							<section class="internship-section py-3" id="Internship-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Internship</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
@@ -224,10 +250,10 @@
 										</ul>
 									</div>
 								</div><!--//item-->								
-							</section><!--//work-section-->
+							</section><!--//internship-section-->
 
 							
-							<section class="project-section py-3">
+							<section class="publication-section py-3" id="Publications-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Publications</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
@@ -263,7 +289,7 @@
 									</div>
 								</div><!--//item-->
 							</section><!--//publication-section-->	
-							<section class="project-section py-3">
+							<section class="contest-section py-3" id="Contests-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Contests</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
@@ -289,7 +315,7 @@
 							</section><!--//contest-section-->	
 						</div><!--//resume-main-->
 						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-							<section class="skills-section py-3">
+							<section class="skill-section py-3" id="Skills-section">
 								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
 								<div class="item">
 									<h4 class="item-title">Technical</h4>
@@ -312,8 +338,8 @@
 											<li>Good time management</li>
 										</ul>
 									</div><!--//item-->
-									</section><!--//skills-section-->
-									<section class="education-section py-3">
+									</section><!--//skill-section-->
+									<section class="education-section py-3" id="Education-section">
 										<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
 										<ul class="list-unstyled resume-education-list">
 											<li class="mb-3">
@@ -328,7 +354,7 @@
 											</li>
 										</ul>
 									</section><!--//education-section-->
-									<section class="education-section py-3">
+									<section class="ta-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">TA</h3>
 										<ul class="list-unstyled resume-awards-list">
 											<li class="mb-3">
@@ -347,15 +373,15 @@
 												<div class="text-muted">A startup course for undergraduate students to learn how to design WeChat applets.</div>
 											</li>
 										</ul>
-									</section><!--//education-section-->
-									<section class="skills-section py-3">
+									</section><!--//ta-section-->
+									<section class="language-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
 										<ul class="list-unstyled resume-lang-list">
 											<li class="mb-2">Mandarin Chinese <span class="text-muted">(Native)</span></li>
 											<li>English <span class="text-muted">(CET-6)</span></li>
 										</ul>
-									</section><!--//certificates-section-->
-									<section class="skills-section py-3">
+									</section><!--//language-section-->
+									<section class="interest-section py-3">
 										<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
 										<ul class="list-unstyled resume-interests-list mb-0">
 											<li class="mb-2">Programming</li>
@@ -363,7 +389,7 @@
 											<li class="mb-2">Cooking</li>
 											<li>Travelling</li>
 										</ul>
-									</section><!--//certificates-section-->
+									</section><!--//interest-section-->
 									
 								</aside><!--//resume-aside-->
 							</div><!--//row-->
@@ -373,7 +399,7 @@
 							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
 								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" target="blank" href="https://github.com/taoyouxian"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/taoyouxian</span></a></li>
 								<li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" target="blank" href="https://www.linkedin.com/in/taoyouxian/"><i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/taoyouxian</span></a></li>
-								<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" target="blank" href="https://blog.csdn.net/u013052657"><i class="fab fa-linux fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@Blog</span></a></li>
+								<li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" target="blank" href="https://blog.csdn.net/u013052657"><i class="fa fa-globe fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@Blog</span></a></li>
 							</ul>
 						</div><!--//resume-footer-->
 					</article>
@@ -390,7 +416,6 @@
 				
 			</div><!--//main-wrapper-->
 			
-
 </body>
 </html> 
 

@@ -76,3 +76,107 @@ a.text-white:hover {
 .cv{
     padding-top: 5px;
 }
+/* Page Nav */
+.page-nav-space-holder {
+  height: 50px;
+  position: relative;
+}
+.page-nav-wrapper {
+  background: #54B689;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.page-nav-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: #54B689;
+}
+.page-nav-wrapper a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: 500;
+}
+.page-nav-wrapper .page-nav {
+  margin: 0 auto;
+  display: inline-block;
+}
+.page-nav-wrapper .page-nav li {
+  margin-right: 30px;
+  display: inline-block;
+  background: none;
+}
+.page-nav-wrapper .page-nav li:hover,
+.page-nav-wrapper .page-nav li:active {
+  background: none;
+}
+.page-nav-wrapper .page-nav li.active a {
+  color: #fff;
+  background: none;
+}
+.page-nav-wrapper .page-nav li a {
+  color: rgba(255, 255, 255, 0.6);
+  padding: inherit;
+  cursor:pointer;
+}
+.page-nav-wrapper .page-nav li a:hover {
+  color: #fff;
+}
+.page-nav-wrapper .page-nav li a:hover,
+.page-nav-wrapper .page-nav li a:active,
+.page-nav-wrapper .page-nav li a:focus {
+  background: none;
+}
+.page-nav-wrapper .page-nav li:last-child {
+  margin-right: 0;
+}
+/* Scroll Back to Top */
+#topcontrol {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  background: #1ab394;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  z-index: 30;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+#topcontrol:hover {
+  background: #54B689;
+  color: #fff;
+}
+#topcontrol .fa {
+  position: relative;
+  top: 3px;
+  font-size: 25px;
+  font-weight: normal;
+}
+#topcontrol .fa-angle-up {
+  position: relative;
+  top: 3px;
+  font-size: 25px;
+  font-weight: normal;
+}
