@@ -180,3 +180,7 @@ a.text-white:hover {
   font-size: 25px;
   font-weight: normal;
 }
+/* pdf iframe */
+.pdf-height{
+  height:1210px;
+}
